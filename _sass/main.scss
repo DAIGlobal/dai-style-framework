@@ -1,0 +1,43 @@
+
+@charset "utf-8";
+
+// Initial Variables Overwriting Defaults with DAI Brand Styles
+
+// Text
+$family-primary: "Helvetica", "Arial", "sans-serif";
+$family-secondary: "Proxima-Nova", "Helvetica", "Arial", "sans-serif";
+$body-family: $family-secondary;
+
+// Primary Colors
+$green: #8fc73e; 
+$blue: #a1c7e3;
+$grey-dark: #455560;
+
+
+// Neutral Pallete
+$grey: #56687b;
+$grey-light: #e4e5e6;
+$green-light: #d1e6c8;
+$beige: #dad2c8;
+
+
+//Accent Pallette
+$purple: #8060a9;
+$indigo: #445791;
+$cyan: #1d81bf;
+$turquoise: #96d5d2;
+$sea-foam: #b0dbbc;
+$yellow: #f9cc73;
+$orange: #f36c23;
+$red: #da1d45;
+$brown: #663d3b;
+
+//Derived Variables
+$primary: $green;
+$info: $blue;
+$success: $turquoise;
+$link: $cyan;
+
+
+@import "bulma.sass";
+@import "layout.scss";
