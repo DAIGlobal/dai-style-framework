@@ -33,11 +33,24 @@ $red: #da1d45;
 $brown: #663d3b;
 
 //Derived Variables
-$primary: $green;
+$primary: $grey;
 $info: $blue;
 $success: $turquoise;
 $link: $cyan;
+$text: $grey-dark;
 
+//navbar variables
+$navbar-background-color: $grey-dark;
+$navbar-item-color: $grey-light;
+$navbar-item-hover-background-color: $grey;
+$navbar-item-hover-color: $grey-light;
+$navbar-dropdown-arrow: $grey-light;
+$navbar-dropdown-background-color: $grey-dark;
+$navbar-dropdown-item-hover-color: $grey-dark;
 
+// blockquote variables
+$content-blockquote-background-color: $grey-dark;
+$content-blockquote-border-left: 0px;
+$content-blockquote-padding: 7rem;
 @import "bulma.sass";
 @import "layout.scss";

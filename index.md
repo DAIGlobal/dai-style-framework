@@ -5,18 +5,19 @@ title: "My custom Bulma website"
 <section class="hero is-primary">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title">
-        Hero title
-      </h1>
-      <h2 class="subtitle">
+      <h1 class="title is-1">
+        Hero Title
+       <hr class="bar"></h1>
+      <h2 class="subtitle is-3">
         Hero subtitle
       </h2>
+      <p>There is no ignorance, and no end to ignorance. There is no old age and death, and no end to old age and death. There is no suffering, no end to suffering, no cause of suffering, no path to follow. There is no attainment of wisdom, and no wisdom to attain.</p>
     </div>
   </div>
 </section>
 <section class="section">
   <div class="container">
-    <h1 class="title">Grid Layout</h1>
+    <h1 class="title">Grid Layout <hr class="bar"></h1>
     <p class="is-size-5">Grid layout is super simple. Set a <code>column</code> inside <code>columns</code> add as many columns as you need, up to 12. If you want to span multiple columns use you can use size helpers (e.g. <code>is-three-fifths</code>, <code>is-half</code>, etc). Or, specify column numbers to span: <code>is-5</code>, <code>is-6</code>.</p>
     <p class="is-size-5">Position your span within the grid with offsets: <code>is-offeset-one-quarter</code>, <code>is-offset-8</code>, etc.</p>
     <img src="https://cl.ly/a7f79be7caf5/Screen%252520Shot%2525202020-01-27%252520at%2525209.09.33%252520AM.png" alt="">
@@ -25,7 +26,7 @@ title: "My custom Bulma website"
 </section>
 <section class="section">
   <div class="container">
-    <h1 class="title">Message Boxes</h1>
+    <h1 class="title">Message Boxes <hr class="bar"></h1>
 
     <div class="container columns">
       <div class="column">
@@ -65,7 +66,7 @@ title: "My custom Bulma website"
 
 <section class="section">
   <div class="container">
-  <h1 class="title">Tiles—masonry or whatever</h1>
+  <h1 class="title">Tiles—masonry or whatever <hr class="bar"></h1>
   <div class="tile is-ancestor">
   <div class="tile is-vertical is-8">
     <div class="tile">
@@ -120,7 +121,7 @@ title: "My custom Bulma website"
 
 <section class="section">
   <div class="container">
-  <h1 class="title">Cards</h1>
+  <h1 class="title">Cards <hr class="bar"></h1>
     <div class="columns">
       <div class="column"><div class="card">
   <div class="card-image">
@@ -183,7 +184,7 @@ title: "My custom Bulma website"
 </section>
 <section class="section">
   <div class="container">
-  <h1 class="title">More Cards</h1>
+  <h1 class="title">More Cards <hr class="bar"></h1>
     <div class="columns">
       <div class="column"><div class="card">
   <header class="card-header">
@@ -237,7 +238,7 @@ title: "My custom Bulma website"
 </section>
 <section class="section">
   <div class="container">
-    <h1 class="title">Form controls</h1>
+    <h1 class="title">Form controls <hr class="bar"></h1>
 
     <div class="field">
   <label class="label">Name</label>
@@ -327,7 +328,7 @@ title: "My custom Bulma website"
 </section>
 <section class="section">
   <div class="container">
-    <h1 class="title">Buttons</h1>
+    <h1 class="title">Buttons <hr class="bar"></h1>
     <div class="buttons">
   <button class="button is-primary is-outlined">Primary</button>
   <button class="button is-link is-outlined">Link</button>
@@ -354,22 +355,22 @@ title: "My custom Bulma website"
   <div class="container">
 
   <div class="columns">
-    <div class="column"><h1 class="title">Titles</h1>
-    <h1 class="title is-1">Title 1</h1>
+    <div class="column"><h1 class="title">Titles <hr class="bar"></h1>
+    <h1 class="title is-1">Title 1 <hr class="bar"></h1>
     <h2 class="title is-2">Title 2</h2>
     <h3 class="title is-3">Title 3 (default size)</h3>
     <h4 class="title is-4">Title 4</h4>
     <h5 class="title is-5">Title 5</h5>
     <h6 class="title is-6">Title 6</h6></div>
-    <div class="column"><h1 class="title">Subtitles</h1>
-  <h1 class="subtitle is-1">Subtitle 1</h1>
+    <div class="column"><h1 class="title">Subtitles <hr class="bar"></h1>
+  <h1 class="subtitle is-1">Subtitle 1 <hr class="bar"></h1>
   <h2 class="subtitle is-2">Subtitle 2</h2>
   <h3 class="subtitle is-3">Subtitle 3</h3>
   <h4 class="subtitle is-4">Subtitle 4</h4>
   <h5 class="subtitle is-5">Subtitle 5</h5>
   <h6 class="subtitle is-6">Subtitle 6</h6></div>
   <div class="column">
-    <h1 class="title">Title/Sub</h1>
+    <h1 class="title">Title/Sub <hr class="bar"></h1>
     <p class="title is-1">Title 1</p>
 <p class="subtitle is-3">Subtitle 3</p>
 
@@ -384,7 +385,7 @@ title: "My custom Bulma website"
 </section>
 <section class="section">
   <div class="container">
-  <h1 class="title">Tables</h1>
+  <h1 class="title">Tables <hr class="bar"></h1>
   <table class="table is-bordered is-striped">
   <thead>
     <tr>
@@ -685,10 +686,10 @@ title: "My custom Bulma website"
   </div>
 </section>
 <section class="section"><div class="container">
-  <h1 class="title">Body text elements</h1>
+  <h1 class="title">Body text elements <hr class="bar"></h1>
   <div class="content">
     <h2 class="title">Blockquote</h2>
-    <blockquote>There is no ignorance, and no end to ignorance. There is no old age and death, and no end to old age and death. There is no suffering, no end to suffering, no cause of suffering, no path to follow. There is no attainment of wisdom, and no wisdom to attain. —Heart Sutra</blockquote>
+    <blockquote>There is no ignorance, and no end to ignorance. There is no old age and death, and no end to old age and death. There is no suffering, no end to suffering, no cause of suffering, no path to follow. There is no attainment of wisdom, and no wisdom to attain. <strong>—Heart Sutra</strong></blockquote>
   </div>
   <div class="container columns">
     <div class="column content">
@@ -782,7 +783,7 @@ title: "My custom Bulma website"
 </section>
 <section class="section">
   <div class="container">
-    <h1 class="title">Progress Bars</h1>
+    <h1 class="title">Progress Bars <hr class="bar"></h1>
     <progress class="progress is-primary" value="15" max="100">15%</progress>
     <progress class="progress is-link" value="30" max="100">30%</progress>
     <progress class="progress is-info" value="45" max="100">45%</progress>

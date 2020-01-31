@@ -1,3 +1,5 @@
+// Bulma Overrides
+
 h1, h2, h3, h4, h5, h6{
   font-family: $family-primary;
 }
@@ -10,4 +12,31 @@ h1, h2, h3, h4, h5, h6{
 // }
 p{
   margin-bottom: 1.5rem;
+}
+
+.navbar-brand svg{
+  width: 6rem;
+}
+
+.has-divider{
+  border-right: 2px solid $grey-light;
+}
+
+h1{
+  .bar {
+    width: 4rem;
+    border: 0;
+    border-bottom: 8px solid; 
+  }
+}
+blockquote{
+  color: $grey-light;
+  background-image: url(../images/blockquote.svg), url(../images/blockquote-right.svg);
+  background-size: 3rem, 6rem;
+  background-repeat: no-repeat;
+  background-position: left 3rem top 5.8rem, right .7rem top 7rem;
+  strong{
+    color: whitesmoke;
+    font-weight: bold;
+  }
 }
