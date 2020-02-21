@@ -1,7 +1,8 @@
 // Bulma Overrides
 
-h1, h2, h3, h4, h5, h6{
+h1.title, h2.title, h3.title, h4.title, h5.title, h6.title{
   font-family: $family-primary;
+  color: $grey-dark;
 }
 
 // blockquote{
@@ -16,12 +17,24 @@ p{
 
 .navbar-brand svg{
   width: 6rem;
+  fill: white;
+
 }
 
-.has-divider{
-  border-right: 2px solid $grey-light;
+.navbar-item{
+  font-weight: bold;
 }
-
+.item-divider{
+  color: lightgray;
+  position: relative;
+  top: .95rem;
+}
+.hero.is-light{ 
+  color: $grey-dark;
+  .title, .subtitle{
+    color: $grey-dark;
+  }
+}
 h1{
   .bar {
     width: 4rem;
@@ -39,4 +52,19 @@ blockquote{
     color: whitesmoke;
     font-weight: bold;
   }
+}
+.delete, .modal-close{
+  top: -14px;
+}
+.message-header p{
+  margin-bottom: .5rem;
+}
+.card{
+  box-shadow: 0px 2px 60px 0px rgba(160,179,198,0.47);
+}
+.card-content .image{
+ clip-path: circle(49%); 
+}
+.button{
+  font-weight: bold;
 }

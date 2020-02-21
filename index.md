@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "My custom Bulma website"
+title: "Common Framework Components"
 ---
-<section class="hero is-primary">
+<section class="hero is-light">
   <div class="hero-body">
     <div class="container">
       <h1 class="title is-1">
@@ -330,25 +330,25 @@ title: "My custom Bulma website"
   <div class="container">
     <h1 class="title">Buttons <hr class="bar"></h1>
     <div class="buttons">
-  <button class="button is-primary is-outlined">Primary</button>
-  <button class="button is-link is-outlined">Link</button>
+  <button class="button is-primary">Primary</button>
+  <button class="button is-link">Link</button>
 </div>
 
 <div class="buttons">
-  <button class="button is-info is-outlined">Info</button>
-  <button class="button is-success is-outlined">Success</button>
-  <button class="button is-warning is-outlined">Warning</button>
-  <button class="button is-danger is-outlined">Danger</button>
+  <button class="button is-info">Info</button>
+  <button class="button is-success">Success</button>
+  <button class="button is-warning">Warning</button>
+  <button class="button is-danger">Danger</button>
 </div>
   </div>
   <br>
   <div class="container">
   <h2 class="title">Button Sizes</h2>
-    <button class="button is-small">Small</button>
-<button class="button">Default</button>
-<button class="button is-normal">Normal</button>
-<button class="button is-medium">Medium</button>
-<button class="button is-large">Large</button>
+    <button class="button is-small is-primary">Small</button>
+<button class="button is-primary">Default</button>
+<button class="button is-normal is-primary">Normal</button>
+<button class="button is-medium is-primary">Medium</button>
+<button class="button is-large is-primary">Large</button>
   </div>
 </section>
 <section class="section">
