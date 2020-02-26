@@ -45,6 +45,10 @@ h1{
     border-bottom: 5px solid;
     margin-top: 1rem;
   }
+  &.is-1 .bar{
+    width: 3rem;
+    border-bottom: 8px solid;
+  }
 }
 blockquote{
   color: $grey-light;
@@ -58,7 +62,9 @@ blockquote{
   }
 }
 .delete, .modal-close{
-  top: -14px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 .message-header p{
   margin-bottom: .5rem;
